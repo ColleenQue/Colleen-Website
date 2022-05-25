@@ -1,0 +1,201 @@
+*:focus {
+    border: 1px solid blue !important;
+  }
+  
+  body {
+      /* width: auto; */
+      font-family: "Courier New";
+      /* padding: 1em; */
+      padding: 0;
+      margin: 0;
+  
+      background-color: #f5eef5;
+    
+      /* Full height
+      height: 100%;
+    
+      /* Center and scale the image nicely */
+      /* background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; */
+  
+  }
+  
+  h1 {
+      font-family: "Helvetica";
+      /* transform: translate(10px, 5px); */
+  }
+  
+  .left {
+      float: left;
+      padding: 10px;
+    }
+  
+    .error{
+      color:rgb(181, 40, 40);
+    }
+  h2 {
+      font-family: "Helvetica";
+      font-style: italic;
+  }
+  
+  form{
+      text-align: left;
+  }
+  
+  header{
+      color: #b80659;
+  }
+  
+  main {
+    padding: 0 1em;
+  }
+  
+  footer {
+      text-align: right;
+      color: #d813b7;
+  }
+  
+  /*ref: https://www.w3schools.com/howto/howto_js_topnav.asp*/
+  
+  .topnav {
+      background-color: #333;
+      overflow: hidden;
+  
+      /* fill top part of screen*/
+      /* position: absolute; */
+      top: 0;
+      right: 0;
+      left: 0;
+    }
+    
+    /* nav link styles */
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    /* hovering style */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* active page style */
+    .topnav a.active {
+      background-color: #007fb0;
+      color: white;
+    }
+  
+  #signup-form input {
+    display: block;
+    font-size:11px;
+    padding:4px 2px;
+    width:250px;
+    margin:2px 0 20px 10px;
+    text-align: left;
+  }
+  
+  #signup-form label, #signup-form button {
+    margin:2px 0 20px 10px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  #signup-form h1{
+    text-align: left;
+    margin-top: 50px;
+  }
+  
+  #signup-form p {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  
+  /*copied from signup **/
+  #login-form input{
+    display: block;
+    font-size:11px;
+    padding:4px 2px;
+    width:250px;
+    margin:2px 0 20px 10px;
+    text-align: left;
+  }
+  
+  #login-form label, #login-form button {
+    margin:2px 0 20px 10px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  #login-form h1{
+    text-align: left;
+    margin-top: 50px;
+  }
+  
+  #login-form p {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  
+  dt {
+    font-weight: bold ;
+  }
+  
+  .profile label{
+    font-weight:bold;
+  }
+  
+  .capitalize {
+    text-transform: capitalize;
+  }
+  
+  .button-44 {
+    background: rgb(199, 32, 32);
+    border-radius: 11px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+    font-size: 1.15em;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 33.4929px;
+    padding: .8em 1em;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+    text-underline-offset: 1px;
+    transition: all .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    word-break: break-word;
+    border: 0;
+  }
+  
+  .button-44:active,
+  .button-44:focus {
+    border-bottom-style: none;
+    border-color: #dadada;
+    box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
+    outline: 0;
+  }
+  
+  .button-44:hover {
+    border-bottom-style: none;
+    border-color: #dadada;
+  }
+  
+  .icon-btn {
+    font-size: 20px;
+    color: #333;
+    border: 1px solid transparent;
+  }
