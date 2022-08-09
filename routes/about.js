@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get('', async (req, res) => {
 
-  res.render('pages/medium/about',{aboutPage:true, title:});
+  res.render('pages/medium/about',{aboutPage:true});
 
 });
 
