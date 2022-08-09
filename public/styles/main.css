@@ -116,3 +116,9 @@ h1 {
 .dark-mode ul.topnav #darkMode.active {
   background-color: rgb(201, 89, 110);
 }
+
+
+
+/*style for resume*/
+#resume-img
+{width:100%;height:100%;}
