@@ -6,11 +6,11 @@
     //corresponds to id
 
     var darkButton = $("#darkMode"),
-        body = $("#main-body"),
-         element = document.body;
+        img = $("#resume-img"),
+        element = document.body;
 
     function myFunction() {
- 
+
 
         //set dark = true if contains class dark-mode
         element.classList.toggle("dark-mode");
@@ -19,17 +19,30 @@
         localStorage.setItem('dark', x);
 
 
+        if (localStorage.getItem('dark') === "true") {
+
+            img.attr("src", "/public/img/image.png");
+        }
+
+        else {
+            img.attr("src", "/public/img/Resume.png");
+        }
+
+
+
     }
 
 
-    if (localStorage.getItem('dark')==="true") {
-        
+    if (localStorage.getItem('dark') === "true") {
+
         element.classList.add("dark-mode");
+        img.attr("src", "/public/img/image.png");
+
 
     }
     else {
-        console.log(localStorage.getItem('dark'));
         document.body.classList.remove('dark-mode');
+        img.attr("src", "/public/img/Resume.png");
     }
 
     darkButton.click(function () {

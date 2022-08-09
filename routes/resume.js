@@ -4,7 +4,10 @@ const router = express.Router();
 
 router.get('', async (req, res) => {
 
-  res.render('pages/medium/resume',{resumePage:true});
+
+
+
+  res.render('pages/medium/resume',{resumePage:true,script:"/public/scripts/resume.js"})
 
 });
 
