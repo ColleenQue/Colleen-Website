@@ -11,13 +11,25 @@
 
 </head>
 
+<body id="main-body">
 
     <ul class="topnav">
 
-        {{#if storyPage}}
-        <li><a class="active" href="/home">My Story</a></li>
+
+        {{#if homePage}}
+        <li><a class="active" href="/home"><i class="fa-solid fa-house"></i></a>
+        </li>
         {{else}}
-        <li><a href="/home">My Story</a></li>
+        <li><a href="/home"><i class="fa-solid fa-house"></i></a>
+        </li>
+        {{/if}}
+
+
+
+        {{#if storyPage}}
+        <li><a class="active" href="/story">My Story</a></li>
+        {{else}}
+        <li><a href="/story">My Story</a></li>
         {{/if}}
 
 
@@ -50,14 +62,13 @@
         {{/if}}
 
 
+
         {{#if aboutPage}}
-        <li id="darkButton"><a class="active" href="/aboutMe"><i class="fa-solid fa-circle-half-stroke"></i></a>
+        <li id="darkMode"><i class="fa-solid fa-circle-half-stroke"></i>
         </li>
         {{else}}
-        <li id="darkButton"><a href="/aboutMe"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
+        <li id="darkMode"><i class="fa-solid fa-circle-half-stroke"></i></li>
         {{/if}}
-
-
 
 
     </ul>
@@ -66,8 +77,16 @@
     <main class="main-body">
         {{{body}}}
     </main>
-<script src="/public/scripts/main.js"></script>
 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src='/public/scripts/main.js'></script>
+
+
+    {{#if script}}
+    <script src=" {{script}}"></script>
+    {{/if}}
 </body>
 
 
