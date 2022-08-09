@@ -1,0 +1,85 @@
+body {margin: 0;}
+
+/*https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(237, 75, 105);
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font:Andale Mono;
+  font-size: 150%;
+}
+
+ul.topnav li a:hover:not(.active) {background-color:rgb(212, 41, 73);}
+
+ul.topnav li a.active {background-color: rgb(236, 114, 136);}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+
+/*https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+.main-body{
+  margin:20px;
+}
+
+
+.pink{
+  color:rgb(237, 75, 105)
+}
+
+
+
+
+
+/*dark-mode*/
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+#darkButton{
+  float:right;
+}
+.dark-mode ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(112, 30, 45);
+}
