@@ -82,9 +82,10 @@ h1 {
   color: rgb(237, 75, 105)
 }
 
-
-
-
+a{
+  text-decoration: none;
+  color: rgb(120, 79, 255);
+}
 
 /*dark-mode*/
 
