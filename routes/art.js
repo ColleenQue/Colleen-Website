@@ -4,7 +4,8 @@ const router = express.Router();
 
 router.get('', async (req, res) => {
 
-  res.render('pages/medium/art',{artPage:true});
+    var x = [1, 2, 3, 4, 5, 6, 7];
+    res.render('pages/medium/art', { artPage: true,art:x });
 
 });
 
