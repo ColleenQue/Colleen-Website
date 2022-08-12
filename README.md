@@ -2,4 +2,4 @@
 
 Website: https://colleensite.herokuapp.com
 
-Reference is in About page
+References are in About page
