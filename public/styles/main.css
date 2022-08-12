@@ -10,8 +10,18 @@ body {
 
 /*canvas*/
 
+#welcome{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size:400%;
+
+  transform: translate(-50%, -50%);
+}
 #canvas1{
   width:100%;
+  position:absolute;
   height:100%;
 }
 
