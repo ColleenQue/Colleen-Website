@@ -9,7 +9,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size:400%;
+  font-size:300%;
 
   transform: translate(-50%, -50%);
 }
