@@ -34,7 +34,7 @@ class Particle {
 
 
 function init(){
-    for (let i=0;i<100;i++){
+    for (let i=0;i<40;i++){
         particlesArray.push(new Particle()); //push to end of array
     }
 }
