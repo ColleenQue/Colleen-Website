@@ -6,7 +6,7 @@ References are in About page
 
 This is a beginner's portfolio website. 
 
-To start, 
+To start, type in
 
 npm i 
 
