@@ -14,12 +14,14 @@ app.set('view engine', 'handlebars');
 
 configRoutes(app);
 
+/*
 app.listen(process.env.PORT || 3000, function(){
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
   console.log('Your routes will be running on http://localhost:3000');
 });
+*/
 
-// app.listen(3000, () => {
-//   console.log("We've now got a server!");
-//   console.log('Your routes will be running on http://localhost:3000');
-// });
+app.listen(3000, () => {
+  console.log("We've now got a server!");
+  console.log('Your routes will be running on http://localhost:3000');
+});
