@@ -17,7 +17,7 @@
 
     if (localStorage.getItem('dark')==="true") {
         
-        img.attr("src","/public/img/image.png");
+        img.attr("src","/public/img/Resume.png");
     }
 
     else{
